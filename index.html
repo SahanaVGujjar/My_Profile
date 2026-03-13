@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sahana Vinayak Gujjar – Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Sahana Vinayak Gujjar – data-focused engineer with a growth mindset, building scalable, customer-obsessed solutions."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="#top" class="logo">Sahana<span>.</span></a>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#recommendations">Recommendations</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Floating background orbits / bubbles -->
+    <div class="bg-orbits" aria-hidden="true">
+      <span class="orbit orbit-1"></span>
+      <span class="orbit orbit-2"></span>
+      <span class="orbit orbit-3"></span>
+      <span class="orbit orbit-4"></span>
+      <span class="orbit orbit-5"></span>
+    </div>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-layout">
+          <div class="hero-text reveal">
+            <p class="eyebrow">Data · Cloud · Privacy</p>
+            <h1>
+              Data Engineer, Data Engineering Management<br />
+              &amp; Governance Analyst building trustworthy data systems.
+            </h1>
+            <p class="hero-subtitle">
+              Data engineer with experience across Accenture and YC-backed Berilium,
+              specializing in PySpark, Azure, Databricks, SQL, and data privacy & security.
+              I design and ship end-to-end pipelines, approve complex PTQs and privacy
+              assessments, partner with stakeholders to communicate risk and impact, and
+              lead data migration work from Alteryx to Databricks on Azure using PySpark.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn primary">View Projects</a>
+              <a href="#contact" class="btn ghost">Contact Me</a>
+            </div>
+            <div class="hero-meta">
+              <span id="location">Seattle, WA · Open to relocation</span>
+              <span>
+                Open to Data Scientist, Data Engineer, Database Administrator,
+                Data Privacy Analyst, Data Steward, SQL Developer, Software Engineer,
+                and Machine Learning Engineer roles
+              </span>
+            </div>
+          </div>
+          <div class="hero-card reveal reveal-delay-1">
+            <div class="hero-card-inner">
+              <div class="hero-photo">
+                <img
+                  src="profile.jpg"
+                  alt="Portrait of Sahana Vinayak Gujjar"
+                  class="hero-photo-img"
+                />
+              </div>
+              <div class="hero-card-body">
+                <h2 class="hero-name">Sahana Vinayak Gujjar</h2>
+                <p class="hero-role">
+                  Data Engineer · Privacy & Governance
+                </p>
+                <ul class="hero-highlights">
+                  <li>✔ Improved data accuracy by 25% and performance by 30% on enterprise pipelines.</li>
+                  <li>✔ 500+ privacy impact assessments (PIA/PTQ) across global platforms.</li>
+                  <li>✔ Multi-Skilled Champion at Accenture for PySpark and data privacy & security.</li>
+                  <li>✔ CPT and OPT eligible candidate in the United States.</li>
+                </ul>
+                <div class="hero-links">
+                  <a href="mailto:sahanavinayakgujjar@gmail.com" target="_blank"
+                    >Email</a
+                  >
+                  <a
+                    href="https://www.linkedin.com/in/sahana-vinayak-gujjar"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                  <a
+                    href="https://github.com/SahanaVGujjar"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container two-column">
+          <div class="reveal">
+            <h2>About</h2>
+            <p>
+              I am a data engineer and privacy-focused technologist currently pursuing my
+              Master of Science in Computer Science at Illinois Institute of Technology,
+              with prior experience at Accenture and YC-backed Berilium. I enjoy turning
+              messy financial and operational data into reliable datasets and analytics
+              using PySpark, SQL, Azure, Databricks, and modern data warehousing.
+              At Accenture, I worked across both engineering and data governance, from
+              building PySpark pipelines to conducting 500+ privacy assessments using
+              OneTrust and other governance tools. I bring a growth mindset and
+              learn-it-all approach, partnering closely with business and system owners
+              to ship secure, compliant, and high-impact data solutions.
+            </p>
+          </div>
+          <div class="about-aside reveal reveal-delay-1">
+            <h3>Highlights</h3>
+            <ul>
+              <li>🏆 Promoted ahead of schedule after improving data accuracy by 25% in six months.</li>
+              <li>📈 Boosted PySpark workflow performance by 30% while maintaining 100% validation accuracy.</li>
+              <li>🤝 Led training for 40+ team members on enterprise data quality and governance best practices.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recommendations -->
+      <section id="recommendations" class="section muted">
+        <div class="container">
+          <h2>Recommendations</h2>
+          <p class="section-intro">
+            Feedback from leaders and peers I have partnered with on data engineering,
+            privacy, and migration projects.
+          </p>
+          <div class="recommend-carousel">
+            <div class="recommend-grid">
+            <!-- 1. Co-founder -->
+            <article class="card recommend-card reveal is-active">
+              <p class="recommend-quote">
+                “Sahana has been working at Berilium as a data engineer this summer, and I want
+                to take a minute to recommend her as she performed remarkably well. The task
+                was challenging, and yet she accomplished it with very little help from our
+                team. She had to write some pretty complex SQL to scrape and analyse financial
+                reports from Arelle (XBRL).”
+                <span class="recommend-author-inline">
+                  — Co‑founder, Berilium (YC‑backed startup)
+                </span>
+              </p>
+            </article>
+
+            <!-- 2. Manager -->
+            <article class="card recommend-card reveal reveal-delay-1">
+              <p class="recommend-quote">
+                “I had the pleasure of managing Sahana directly during her tenure as a Data and
+                Privacy Engineer at Zoetis on our partner's engagement with Accenture. She
+                demonstrated outstanding expertise in data privacy, governance, and compliance.
+                Sahana led over 500 privacy impact assessments, meticulously using OneTrust and
+                similar tools to handle PII risks across various platforms. She excelled at
+                collaborating with Business Process Owners, System Owners, and Heads of
+                Departments from all over the world, ensuring thoroughness in every assessment.
+                Her detailed validation work was key to maintaining GDPR and CCPA compliance,
+                earning strong trust from both client stakeholders and our internal teams.
+
+                Sahana developed, optimized, and validated complex PySpark workflows with
+                impressive accuracy and efficiency. Sahana proactively addressed technical
+                challenges, and improved team productivity through clear documentation and
+                training. Sahana set a high standard for delivery, and I wouldn’t hesitate to
+                recommend her for any data privacy or engineering role.”
+                <span class="recommend-author-inline">
+                  — Manager, Data &amp; Privacy Engineering, Zoetis / Accenture engagement
+                </span>
+              </p>
+            </article>
+
+            <!-- 3. Senior architect -->
+            <article class="card recommend-card reveal reveal-delay-2">
+              <p class="recommend-quote">
+                “Sahana was part of one of the migration engagement which I was leading from
+                Alteryx to Databricks, although she did not have strong background of pyspark
+                and spark sql back then, she was very proactive in learning and getting hands
+                on and within no time she was a key resource for the engagement. She has the
+                right spirit and attitude and I wish her all success for her career.”
+                <span class="recommend-author-inline">
+                  — Senior Data &amp; AI Solution Architect, Accenture (migration lead)
+                </span>
+              </p>
+            </article>
+
+            <!-- 4. Colleague -->
+            <article class="card recommend-card reveal reveal-delay-3">
+              <p class="recommend-quote">
+                “I had the pleasure of working alongside Sahana at Accenture, where she was a
+                Data Engineer on a different team. While we didn’t collaborate closely on
+                specific projects, I was always impressed by her positive attitude and
+                willingness to help everyone around her. Sahana was eager to share her insights
+                or lend support whenever possible. It was clear she was passionate about her
+                work and approachable for anyone seeking advice or assistance. I’ve seen
+                firsthand how colleagues appreciate her reliability and cooperative spirit, and
+                I am confident she will be a valuable asset to any organization she joins.”
+                <span class="recommend-author-inline">
+                  — Colleague, Data Engineering team, Accenture
+                </span>
+              </p>
+            </article>
+            </div>
+            <div class="recommend-nav">
+              <button
+                type="button"
+                class="recommend-nav-button"
+                id="recommend-prev"
+              >
+                <span aria-hidden="true" class="recommend-chevron">›››</span>
+              </button>
+              <button
+                type="button"
+                class="recommend-nav-button"
+                id="recommend-next"
+              >
+                <span aria-hidden="true" class="recommend-chevron">›››</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section muted">
+        <div class="container">
+          <h2>Experience</h2>
+          <p class="section-intro">
+            A snapshot of my professional experience across data engineering, analytics,
+            and data privacy, focused on measurable impact and cross-functional delivery.
+          </p>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <header class="timeline-header">
+                <div>
+                  <h3>Data Engineer Intern – Berilium (YC W23)</h3>
+                  <p class="timeline-meta">
+                    Santa Ana, CA · May 2025 – Aug 2025
+                  </p>
+                </div>
+                <span class="badge">Internship</span>
+              </header>
+              <ul class="timeline-points">
+                <li>
+                  Scraped and analyzed financial reports from Arelle (XBRL) using complex SQL,
+                  enabling automated extraction and processing of structured financial data.
+                </li>
+                <li>
+                  Refined data requirements and built repeatable Power BI reports and SQL stored
+                  procedures, delivering projects 30% faster while maintaining accuracy.
+                </li>
+                <li>
+                  Presented insights to stakeholders, incorporated feedback, and validated outputs
+                  through robust data transformation, data validation, and financial statement checks.
+                </li>
+              </ul>
+              <div class="tags">
+                <span>Azure</span>
+                <span>SQL</span>
+                <span>Power BI</span>
+                <span>XBRL · Arelle</span>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal reveal-delay-1">
+              <header class="timeline-header">
+                <div>
+                  <h3>Data Engineer – Accenture</h3>
+                  <p class="timeline-meta">
+                    Bengaluru, India · Dec 2022 – Jul 2024
+                  </p>
+                </div>
+                <span class="badge">Full-time</span>
+              </header>
+              <ul class="timeline-points">
+                <li>
+                  Developed and optimized PySpark workflows in Databricks, improving performance
+                  by 30% and achieving 100% accuracy against SQL baselines.
+                </li>
+                <li>
+                  Conducted 500+ privacy impact assessments and Privacy Threshold Questionnaires
+                  using OneTrust and other tools, identifying and mitigating PII risks while
+                  ensuring GDPR/CCPA compliance.
+                </li>
+                <li>
+                  Validated PySpark scripts against SQL outputs and standardized patterns and
+                  documentation, boosting team productivity by 15%.
+                </li>
+                <li>
+                  Trained 40+ team members on data quality, governance, and privacy best practices,
+                  strengthening “One Accenture” culture around compliant data use.
+                </li>
+              </ul>
+              <div class="tags">
+                <span>PySpark</span>
+                <span>Databricks</span>
+                <span>Azure</span>
+                <span>OneTrust</span>
+                <span>GDPR · CCPA</span>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal reveal-delay-2">
+              <header class="timeline-header">
+                <div>
+                  <h3>Data Engineering Associate – Accenture</h3>
+                  <p class="timeline-meta">
+                    Bengaluru, India · Oct 2021 – Nov 2022
+                  </p>
+                </div>
+                <span class="badge">Full-time</span>
+              </header>
+              <ul class="timeline-points">
+                <li>
+                  Analyzed and implemented business logic from 50+ Excel-based workflows, then
+                  re-engineered them as automated PySpark and SQL pipelines in Databricks
+                  (1,000+ lines per script).
+                </li>
+                <li>
+                  Improved code quality through reviews, testing, and refactoring, reducing
+                  deployment issues by 15% and increasing pipeline reliability across systems.
+                </li>
+                <li>
+                  Delivered data modeling and BI-ready datasets powering Power BI analytics
+                  and reporting for business stakeholders.
+                </li>
+                <li>
+                  Collaborated with system and business process owners to map data flows and
+                  processing activities, feeding enterprise data privacy and governance initiatives.
+                </li>
+              </ul>
+              <div class="tags">
+                <span>PySpark</span>
+                <span>SQL</span>
+                <span>Databricks</span>
+                <span>Power BI</span>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal reveal-delay-3">
+              <header class="timeline-header">
+                <div>
+                  <h3>Data Science Intern – Acranton Private Limited</h3>
+                  <p class="timeline-meta">
+                    Bengaluru, India · Sep 2020 – Oct 2020
+                  </p>
+                </div>
+                <span class="badge">Internship</span>
+              </header>
+              <ul class="timeline-points">
+                <li>
+                  Applied machine learning with feature engineering and statistical analysis
+                  on real-world datasets, achieving 96% model accuracy.
+                </li>
+                <li>
+                  Experimented with model and feature choices to balance performance,
+                  interpretability, and deployment feasibility.
+                </li>
+              </ul>
+              <div class="tags">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>Data Science</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Featured Projects</h2>
+          <p class="section-intro">
+            Selected academic projects that combine data engineering, security,
+            and machine learning, with an emphasis on real-world constraints and impact.
+          </p>
+          <div class="grid">
+            <article class="card project reveal">
+              <div class="card-header">
+                <h3>Security Risk Assessment Portal</h3>
+                <span class="pill">Security · Privacy</span>
+              </div>
+              <p>
+                GDPR-compliant PIA/DPIA management system that enables organizations to run
+                structured security and privacy risk assessments through automated screening
+                questionnaires and workflow tooling.
+              </p>
+              <ul class="project-points">
+                <li>
+                  Built the front-end in React.js with Material-UI and a FastAPI backend using
+                  SQLModel ORM, with JWT authentication and layered password security
+                  (SHA-256 + bcrypt).
+                </li>
+                <li>
+                  Designed the relational schema (SQLite) to model PIAs/DPIAs, approvals,
+                  and change history, ensuring auditability and traceability for regulators.
+                </li>
+                <li>
+                  Implemented a thread-based chat system so approvers can raise clarifications
+                  and system owners can respond, with visual indicators and status tracking
+                  (open vs. resolved).
+                </li>
+              </ul>
+              <div class="tags">
+                <span>React.js</span>
+                <span>FastAPI</span>
+                <span>SQLModel</span>
+                <span>Security · GDPR</span>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://github.com/SahanaVGujjar/Security-Risk-Assessment"
+                  target="_blank"
+                  >View on GitHub</a
+                >
+              </div>
+            </article>
+
+            <article class="card project reveal reveal-delay-1">
+              <div class="card-header">
+                <h3>Crowd Management System (IoT + ML)</h3>
+                <span class="pill">IoT · ML</span>
+              </div>
+              <p>
+                End-to-end system for real-time crowd monitoring and social distancing
+                enforcement using Raspberry Pi, IR sensors, Firebase, and machine learning.
+              </p>
+              <ul class="project-points">
+                <li>
+                  Deployed Raspberry Pi 4 with IR sensors to capture occupancy signals and
+                  streamed events into Firebase, achieving less than 2-second latency for
+                  live dashboards.
+                </li>
+                <li>
+                  Built a Node.js web dashboard for real-time visualization of crowd data
+                  and alerts for threshold breaches.
+                </li>
+                <li>
+                  Implemented a Python ML model (94% accuracy) to predict crowd levels and
+                  integrated Flask with Node.js over HTTP for predictive analytics.
+                </li>
+              </ul>
+              <div class="tags">
+                <span>Raspberry Pi</span>
+                <span>Firebase</span>
+                <span>Node.js</span>
+                <span>Python · ML</span>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://github.com/vatsa-hegde/PeopleCountingSystem-main"
+                  target="_blank"
+                  >View on GitHub</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section muted">
+        <div class="container">
+          <h2>Skills</h2>
+          <p class="section-intro">
+            A blend of data engineering, cloud platforms, and data privacy/governance,
+            with experience across both build and risk/compliance workflows.
+          </p>
+          <div class="skills-grid">
+            <div class="skills-column reveal">
+              <h3>Cloud & Data</h3>
+              <ul>
+                <li>Microsoft Azure, AWS</li>
+                <li>Databricks, Apache Spark, PySpark, Hadoop</li>
+                <li>Data Warehousing · Data Lakes · Schema Design</li>
+              </ul>
+            </div>
+            <div class="skills-column reveal reveal-delay-1">
+              <h3>Languages & Tools</h3>
+              <ul>
+                <li>Python, Java, JavaScript, TypeScript, R</li>
+                <li>SQL, MySQL, PostgreSQL, MongoDB, Snowflake</li>
+                <li>Node.js, Git, Docker, Power BI, Tableau, Eclipse, Arelle</li>
+              </ul>
+            </div>
+            <div class="skills-column reveal reveal-delay-2">
+              <h3>Privacy & Governance</h3>
+              <ul>
+                <li>Data Privacy, Data Cataloging, Risk Assessments</li>
+                <li>GDPR, CCPA, PIAs/PTQs, Privacy by Design</li>
+                <li>OneTrust, ServiceNow, Adaptive GRC, Confluence</li>
+              </ul>
+            </div>
+            <div class="skills-column reveal reveal-delay-3">
+              <h3>Mindset & Collaboration</h3>
+              <ul>
+                <li>Growth mindset · Learn-it-all attitude</li>
+                <li>Cross-functional collaboration with legal, security, and product</li>
+                <li>Mentoring, documentation, and training for engineering teams</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container contact-layout">
+          <div class="reveal">
+            <h2>Contact</h2>
+            <p>
+              Ready to talk about data engineering, privacy, or platform roles
+              at startups, FAANG, or other top tech companies. The fastest way to reach me is
+              email, but I’m also active on LinkedIn.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:sahanavinayakgujjar@gmail.com"
+                >sahanavinayakgujjar@gmail.com</a
+              >
+              <a
+                href="https://www.linkedin.com/in/sahana-vinayak-gujjar"
+                target="_blank"
+                >LinkedIn Profile</a
+              >
+              <a
+                href="https://github.com/SahanaVGujjar"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          <form
+            class="contact-form"
+            action="mailto:sahanavinayakgujjar@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <div class="contact-smiley" id="contact-smiley" aria-hidden="true">
+              <span class="contact-smiley-icon">😊</span>
+            </div>
+            <div class="field-group">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="field-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div class="field-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell me about the role, team, or project…"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn primary full-width">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+          <div class="container footer-layout reveal">
+        <span>© <span id="year"></span> Sahana Vinayak Gujjar</span>
+        <span class="footer-note">
+          Actively looking for my next team and company to grow with.
+        </span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
